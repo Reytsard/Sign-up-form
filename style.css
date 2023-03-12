@@ -79,3 +79,7 @@ fieldset{
     font-size: 12px;
     letter-spacing: 2px;
 }
+.error{
+    border: 2px solid red;
+    box-shadow: 2px 2px 10px red;
+}
