@@ -6,8 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sign Up | Rey</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lilita+One">
 </head>
 <body>
+    
     <div class="logo">
         <div class="imgAndname">
             <img src="images/odin-lined.png" alt="Odin Logo">
@@ -15,21 +17,22 @@
         </div>
     </div>
     <div class="sign-up-form">
+        <div class="invitation">Join Now! Feel the thrill and pain in making websites!</div>
         <form action="post">
             <fieldset style="width: max(98%);">
                 <div class="row">
                     <div>
-                        <label for="user-name">First Name:</label><br>
+                        <label for="user-name">First Name</label><br>
                         <input type="text" placeholder="John" id="user-name">
                     </div>
                     <div>
-                        <label for="user-name">Last Name:</label> <br>
+                        <label for="user-name">Last Name</label> <br>
                         <input type="text" placeholder="John" id="user-name">
                     </div>
                 </div>
                 <div class="row">
                     <div>
-                        <label for="user-email">Email:</label> <br>
+                        <label for="user-email">Email</label> <br>
                         <input type="email" placeholder="example@abc.com" required>
                     </div>
                     <div>
@@ -48,10 +51,11 @@
                     </div>
                 </div>
                 <div class="row">
-                    <button type="submit">Sign-up</button>
+                    <button id="Submit" type="submit">Sign-up</button>
                 </div>
             </fieldset>
         </form>
+        <div style="flex:1"></div>
     </div>
 </body>
 </html>
