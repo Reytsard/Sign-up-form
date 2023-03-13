@@ -1,10 +1,12 @@
 body{
     background: url('images/bg.jpg');
-    background-size: contain;
+    background-size: cover;
+    background-repeat: repeat-x;
     margin: 0;
     display: flex;
     align-items: center;
     justify-content: baseline;
+    flex-wrap: wrap;
 }
 fieldset{
     width: 100%;
@@ -15,13 +17,15 @@ fieldset{
     justify-content: space-between;
 }
 .logo{
-    flex:1; 
     width: 35vw;
     height: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    flex-shrink: 0;
+    flex-grow: 1;
+    flex-basis: 300px;
     
 }
 .logo img{
